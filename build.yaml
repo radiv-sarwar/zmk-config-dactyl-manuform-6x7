@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: promicro_nrf52840
+  - board: nice_nano
     shield: radiv_dm_6x7_left
-  - board: promicro_nrf52840
+  - board: nice_nano
     shield: radiv_dm_6x7_right

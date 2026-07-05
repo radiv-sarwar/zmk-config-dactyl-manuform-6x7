@@ -1,4 +1,4 @@
-if SHIELD_RADIV_DM_6X7_LEFT
+if SHIELD_RADIV_DM_6X7_LEFT ||  SHIELD_DACTYL_MANUFORM_5x6_RIGHT
 
     config ZMK_KEYBOARD_NAME
         default "Radiv DM"
@@ -8,9 +8,3 @@ if SHIELD_RADIV_DM_6X7_LEFT
 
 endif
 
-if SHIELD_DACTYL_MANUFORM_5x6_LEFT || SHIELD_DACTYL_MANUFORM_5x6_RIGHT
-
-    config ZMK_SPLIT
-        default y
-
-endif

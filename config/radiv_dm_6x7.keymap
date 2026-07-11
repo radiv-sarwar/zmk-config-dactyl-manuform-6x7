@@ -127,11 +127,11 @@
 
         lower_layer {
             bindings = <
-                &trans  &trans &trans &trans &trans &trans &trans             &trans &trans   &trans   &BT_CLR_ALL &BT_SEL 0 &BT_CLR &trans
-                &trans  &trans &kp N7 &kp N8 &kp N9 &trans &trans             &trans &trans   &trans   &trans      &trans    &trans  &trans
-                &trans  &trans &kp N4 &kp N5 &kp N6 &trans &trans             &trans &kp LEFT &kp DOWN &kp UP      &kp RIGHT &trans  &trans
-                &trans  &trans &kp N1 &kp N2 &kp N3 &trans                           &trans   &trans   &trans      &trans    &trans  &trans
-                &trans  &trans &kp N0 &trans                                                           &trans      &trans    &trans  &trans
+                &trans  &trans &trans &trans &trans &trans &trans             &trans &trans   &trans   &bt BT_CLR_ALL &bt BT_SEL 0 &bt BT_CLR &trans
+                &trans  &trans &kp N7 &kp N8 &kp N9 &trans &trans             &trans &trans   &trans   &trans         &trans       &trans     &trans
+                &trans  &trans &kp N4 &kp N5 &kp N6 &trans &trans             &trans &kp LEFT &kp DOWN &kp UP         &kp RIGHT    &trans     &trans
+                &trans  &trans &kp N1 &kp N2 &kp N3 &trans                           &trans   &trans   &trans         &trans       &trans     &trans
+                &trans  &trans &kp N0 &trans                                                           &trans         &trans       &trans     &trans
                                                     &trans &trans             &trans &trans
                                                     &trans &trans             &trans &trans
                                                     &trans                           &trans

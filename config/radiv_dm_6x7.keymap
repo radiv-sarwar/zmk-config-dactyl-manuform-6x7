@@ -109,6 +109,10 @@
         };
     };
 
+    &mt {
+        tapping-term-ms = <500>; // default value = 200
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

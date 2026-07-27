@@ -111,6 +111,7 @@
 
     mt {
         tapping-term-ms = <500>; // default value = 200
+        flavor = "tap-preferred";
     };
 
     keymap {

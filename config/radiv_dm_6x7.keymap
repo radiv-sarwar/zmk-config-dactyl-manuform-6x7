@@ -112,7 +112,8 @@
     mt {
         tapping-term-ms = <500>; // default value = 200
         flavor = "tap-preferred";
-        require_prior_idle_ms = <125>;
+        require_prior_idle_ms = <200>;
+        quick-tap-ms = <150>;
     };
 
     keymap {

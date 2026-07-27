@@ -112,7 +112,7 @@
     mt {
         tapping-term-ms = <500>; // default value = 200
         flavor = "tap-preferred";
-        require_prior_idle_ms = <200>;
+        require_prior_idle_ms = <500>;
         quick-tap-ms = <150>;
     };
 
